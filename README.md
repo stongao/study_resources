@@ -22,4 +22,10 @@ Apart from that I will try to study some specific topic and make a note everyday
 - Computer Networks
 - Programming languages and compilers
 
-I will be using [this](https://github.com/tSushant/interview_portfolio/blob/master/schedule.md) schedule to plan and track my progress. 
+I will be using [this](https://github.com/tSushant/interview_portfolio/blob/master/schedule.md) schedule to plan and track my progress.
+
+---
+
+## Resources
+1. [Google Interview University](https://github.com/jwasham/google-interview-university)  
+   Has a lot of links and resources for general coding interview preparation.
