@@ -26,6 +26,63 @@ I will be using [this](https://github.com/tSushant/interview_portfolio/blob/mast
 
 ---
 
+## Preparation plan
+
+### C/C++ Programming
+
+- Topics
+- C programming books
+
+
+### Data structures
+
+- arrays
+- linked lists
+- stacks
+- queues
+- priority queues
+- binary tree
+- binary search tree
+- hash table
+
+### Algorithms
+
+- Big-o notation
+- Master theorem
+- Recursion
+- Backtracking
+- Sorting
+- Searching
+- Dynamic programming
+- Graph Algorithms
+
+### Operating systems
+
+- Process
+- Threads
+- Multithreading and concurrancy
+- Memory management
+- I/O management
+
+### Networking
+
+- Network stack
+- Layer 2 networks
+  * Switching and forwarding
+  * Collision, Broadcast domains, VLANS
+  * Loops, Spanning Tree Protocol
+  * Link aggregation
+  * MPLS
+  * Lossless ethernet
+- Layer 2 networks
+  * IP header
+  * IP addressing
+  * Routing tables, longest prefix match
+  * Routing protocols
+  * OSPF
+  * BGP
+  
+
 ## Resources
 1. [Google Interview University](https://github.com/jwasham/google-interview-university)  
    Has a lot of links and resources for general coding interview preparation.
