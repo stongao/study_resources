@@ -9,7 +9,7 @@ Over next few weeks I plan to study and revise basic requuired skiils for comput
 - Computer Networks
 
 I will try to incorporate a good mix of above domains in my daily preparation. My current plan is to write code for practice problems involving atleast :
-- Any 3 of the basic data structures, 1 from each group: arrays, strings linked lists | Binary trees, BST | hash table, heap, priority queues
+- Any 3 of the basic data structures, 1 from each group: | arrays, strings, stack, queue | Linked list, Binary trees, BST | hash table, heap, priority queues
 - atleast 1 problem involving dynamic programming
 - atleast 1 problem involving graph algorithms
 - atleast 1 problem involving backtracking/recursion  
