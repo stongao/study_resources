@@ -35,15 +35,33 @@ I will be using [this](https://github.com/tSushant/interview_portfolio/blob/mast
 
 
 ### Data structures
-
+Study STL constructs and APIs, how is it implemented, what does compiler do when called specific API, complexities, limitations, how could sloppy code break it, how to use efficiently
 - arrays
+  * Contiguous memory
+  * vector vs array
+  * uses in other data structs
+  * stride length
 - linked lists
+  * Dynamic memory and applications
+  * Ways to improve efficiency
 - stacks
+  * Implementation with array vs list
+  * Common uses
 - queues
+  * Implementation with array vs list
+  * Common uses
 - priority queues
+  * heap with array vs tree
+  * heapify
+  * heapsort
+  * comparators
 - binary tree
 - binary search tree
 - hash table
+  * map, unordered_map
+  * hash functions
+  * buckets
+  * collisions and complexity
 
 ### Algorithms
 
