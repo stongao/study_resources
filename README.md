@@ -104,3 +104,7 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
 ## Resources
 1. [Google Interview University](https://github.com/jwasham/google-interview-university)  
    Has a lot of links and resources for general coding interview preparation.
+2. [Lost art of C structure packing](http://www.catb.org/esr/structure-packing/)
+   Explains data structure padding
+3. [Linux IP networking](https://www.cs.unh.edu/cnrg/people/gherrin/linux-net.html)
+   Linux networking stack in detail
