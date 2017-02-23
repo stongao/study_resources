@@ -108,3 +108,5 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    Explains data structure padding
 3. [Linux IP networking](https://www.cs.unh.edu/cnrg/people/gherrin/linux-net.html)
    Linux networking stack in detail
+4. [Introduction to distributed systems](http://disco.ethz.ch/lectures/podc_allstars/)
+   Very basic study of distributed systems
