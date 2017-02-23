@@ -109,4 +109,18 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
 3. [Linux IP networking](https://www.cs.unh.edu/cnrg/people/gherrin/linux-net.html)
    Linux networking stack in detail
 4. [Introduction to distributed systems](http://disco.ethz.ch/lectures/podc_allstars/)
-   Very basic study of distributed systems
+   ETH Zurich course. Also covers very basic details.
+5. [Concurrent Programming for scalable web architectures](http://berb.github.io/diploma-thesis/original/index.html)
+   Gives an overview of issues in large scalable systems you should care about
+6. [CS 417 Rutgers] (https://www.cs.rutgers.edu/~pxk/417/index.html)
+   Distributed systems course at Rutgers. Pretty much covers everything.
+7. [100 most influential books](http://www.cspray.net/my.so-archive/100-most-influential-programming-books.html)
+8. OS Development
+   (https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
+   (http://wiki.osdev.org/Getting_Started)
+   (http://www.brokenthorn.com/Resources/OSDevIndex.html)
+   (http://www.osdever.net/bkerndev/Docs/intro.htm)
+9. [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
+   Guide to networking APIs in C
+10. [Lets Build a webserver] (https://ruslanspivak.com/lsbaws-part1/)
+
