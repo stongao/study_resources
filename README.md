@@ -125,4 +125,6 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
 10. [Lets Build a webserver] (https://ruslanspivak.com/lsbaws-part1/)
 11. [Programming in C UNIX system calls] (http://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html)
    Everything related to c and UNIX in one place
+12. [Linux Insides] (https://www.gitbook.com/book/0xax/linux-insides/details)
+   Linux insides for dummies
 
