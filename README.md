@@ -120,11 +120,13 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    (http://wiki.osdev.org/Getting_Started)
    (http://www.brokenthorn.com/Resources/OSDevIndex.html)
    (http://www.osdever.net/bkerndev/Docs/intro.htm)
-9. [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)
+9. [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)  
    Guide to networking APIs in C
-10. [Lets Build a webserver] (https://ruslanspivak.com/lsbaws-part1/)
+10. [Lets Build a webserver] (https://ruslanspivak.com/lsbaws-part1/)  
 11. [Programming in C UNIX system calls] (http://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html)
    Everything related to c and UNIX in one place
-12. [Linux Insides] (https://www.gitbook.com/book/0xax/linux-insides/details)
+12. [Linux Insides] (https://www.gitbook.com/book/0xax/linux-insides/details)  
    Linux insides for dummies
+13. [FlingOS] (https://github.com/FlingOS)  
+   DIY OS with tutorials and lectures
 
