@@ -1,6 +1,18 @@
 # Interview Portfolio
 
-I am Sushant Tongaonkar, graduate student at NC State university, specializing in Computer Networks. I am currently looking for full-time opportunities as Software Development or Test Engineer in the domain of Computer Networks, Cloud computing or system security. This is the repo I am maintaining as I prepare for the interviews to keep may notes, resources, pracice programs and to track my progress.  
+I am Sushant Tongaonkar, graduate student at NC State university, specializing in Computer Networks. I am currently looking for full-time opportunities as Software Development or Test Engineer in the domain of Computer Networks, Cloud computing or system security. This is the repo I am maintaining as I prepare for the interviews to keep may notes, resources, pracice programs and to track my progress.
+
+My profiles
+- [Leetcode] (https://leetcode.com/stongao/)
+- [InterviewBit] (https://www.interviewbit.com/profile/sushant_tongaonkar)
+- [Hackerrank] (https://www.hackerrank.com/stongao)
+- [Codemonk] (https://www.hackerearth.com/@stongao)
+- [SPOJ] (http://www.spoj.com/users/stongao/)
+- [Codeforces] (http://codeforces.com/profile/stongao)
+- [Codechef] (https://www.codechef.com/users/stongao)
+- [Wechall] (https://www.wechall.net/profile/stongo)
+- [FreeCodeCamp] (https://www.freecodecamp.com/tsushant)
+
 Over next few weeks I plan to study and revise basic requuired skiils for computer scientists and engineers.
 - Programming Languages
 - Data Structure
