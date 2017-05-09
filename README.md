@@ -142,4 +142,8 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    Linux insides for dummies
 13. [FlingOS] (https://github.com/FlingOS)  
    DIY OS with tutorials and lectures
+14. [System design course] (https://www.educative.io/collection/5668639101419520/5649050225344512)
+   Preparing for system design interview.
+15. [System design interview resources] (https://github.com/checkcheckzz/system-design-interview)
+   Elaborate list of useful resources.
 
