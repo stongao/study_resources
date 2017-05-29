@@ -39,15 +39,26 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
+Bonus points to say roll your own linux(Done that using yocto). Other options redhat, debian  
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * Why we must choose you?
 * What function does DNS play on a network?
+Resolves web address(URLs) string to an IP address. Convert **hostname to IP**
 * What is HTTP?
+Hyper Text Transfer Protocol. Application layer protocol commonly used by web applications. Used underlaying TCP for communication. Uses request-response architecture. GET/HEAD/POST requests.
 * What is an HTTP proxy and how does it work?
+Server sits between client and actually server. Translate/validate requests. Isolate client IP. An HTTP Proxy serves **two intermediary roles as an HTTP Client and an HTTP Server** for security, management, and caching functionality.  
 * Describe briefly how HTTPS works.
+  - It's HTTP + Transport Layer Cryptography. Typically used server port no 443. Transport Layer Encryption: SSL, TLS 1.1, TLS 1.2. Certificate demonstrates ownership of public key. Certificate purchased from authority. 
+  - Client sends **Client hello message** listing ssl version, ciphersuites
+  - Server sends certificate in **Server Hello Message**.Also sends chosen ciphersuite. Request digital cert from client(optional)
+  - Client sends **key exchange message** encrypted with public key. Private key is generated uniquely for every session.
+  - CLient sends **finished** message
+  - Server acknoledge. Sends **finished** messsage. Symmetric key crypto now onwards.
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
+- Redundant array of interconnected disks. RAID0- **Data Striping**. RAID1- **Mirroring**. RAID5- **Parity info**(tolerates one drive failure). RAID10- combine RAID1 and RAID0
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
 
@@ -55,10 +66,15 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
 * What is the name and the UID of the administrator user?
+- root, uid 0, gid 0
 * How to list all files, including hidden ones, in a directory?
+- ls - a
 * What is the Unix/Linux command to remove a directory and its contents?
+- rm -rf /path/to/dir
 * Which command will show you free/used memory? Does free memory exist on Linux?
+- free, top: free shows used, free, dynamic, shared and swap memory usage
 * How to search for the string "my konfi is the best" in files of a directory recursively?
+- grep -r "my confi is the best" ./\*
 * How to connect to a remote server or what is SSH?
 * How to get all environment variables and how can you use them?
 * I get "command not found" when I run ```ifconfig -a```. What can be wrong?
