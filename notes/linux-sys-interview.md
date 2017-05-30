@@ -39,16 +39,16 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
-Bonus points to say roll your own linux(Done that using yocto). Other options redhat, debian  
+  - Bonus points to say roll your own linux(Done that using yocto). Other options redhat, debian  
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * Why we must choose you?
 * What function does DNS play on a network?
-Resolves web address(URLs) string to an IP address. Convert **hostname to IP**
+  - Resolves web address(URLs) string to an IP address. Convert **hostname to IP**
 * What is HTTP?
-Hyper Text Transfer Protocol. Application layer protocol commonly used by web applications. Used underlaying TCP for communication. Uses request-response architecture. GET/HEAD/POST requests.
+  - Hyper Text Transfer Protocol. Application layer protocol commonly used by web applications. Used underlaying TCP for communication. Uses request-response architecture. GET/HEAD/POST requests.
 * What is an HTTP proxy and how does it work?
-Server sits between client and actually server. Translate/validate requests. Isolate client IP. An HTTP Proxy serves **two intermediary roles as an HTTP Client and an HTTP Server** for security, management, and caching functionality.  
+  - Server sits between client and actually server. Translate/validate requests. Isolate client IP. An HTTP Proxy serves **two intermediary roles as an HTTP Client and an HTTP Server** for security, management, and caching functionality.  
 * Describe briefly how HTTPS works.
   - It's HTTP + Transport Layer Cryptography. Typically used server port no 443. Transport Layer Encryption: SSL, TLS 1.1, TLS 1.2. Certificate demonstrates ownership of public key. Certificate purchased from authority. 
   - Client sends **Client hello message** listing ssl version, ciphersuites
@@ -58,43 +58,71 @@ Server sits between client and actually server. Translate/validate requests. Iso
   - Server acknoledge. Sends **finished** messsage. Symmetric key crypto now onwards.
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
-- Redundant array of interconnected disks. RAID0- **Data Striping**. RAID1- **Mirroring**. RAID5- **Parity info**(tolerates one drive failure). RAID10- combine RAID1 and RAID0
+  - Redundant array of interconnected disks. RAID0- **Data Striping**. RAID1- **Mirroring**. RAID5- **Parity info**(tolerates one drive failure). RAID10- combine RAID1 and RAID0
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
-
+  - /boot : static boot files. Linux kernel image. Replacing image will update system
+  - /etc : configuration files
+  - /lib : static and dynamic libraries. .so and .lib 
+  - /dev : system related files. Devices shown as files. eg /dev/sda
+  - /sys : files created by device drivers for interaction
+  - /bin : common executables. e.g. ls
+  - /mnt : temporary mounted filesystems
+  - /opt : large static softwares
+  - /proc : files that extract or send info to kernel e.g. /proc/loadavg 
+  - /sbin : executables only used at boot time
+  - /usr : protect files when system is updated. Also files of other users and groups
+  - /var : temporary files
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
 * What is the name and the UID of the administrator user?
-- root, uid 0, gid 0
+  - root, uid 0, gid 0
 * How to list all files, including hidden ones, in a directory?
-- ls - a
+  - ls - a
 * What is the Unix/Linux command to remove a directory and its contents?
-- rm -rf /path/to/dir
+  - rm -rf /path/to/dir
 * Which command will show you free/used memory? Does free memory exist on Linux?
-- free, top: free shows used, free, dynamic, shared and swap memory usage
+  - free, top: free shows used, free, dynamic, shared and swap memory usage
 * How to search for the string "my konfi is the best" in files of a directory recursively?
-- grep -r "my confi is the best" ./\*
+  - grep -r "my confi is the best" ./\*
 * How to connect to a remote server or what is SSH?
+  - ssh user@hostname -p portno. defalut port 22. 
 * How to get all environment variables and how can you use them?
+  - printenv. Same program runs differently in different environments.
 * I get "command not found" when I run ```ifconfig -a```. What can be wrong?
+  -  ifconfig is not in path or not installed
 * What happens if I type TAB-TAB?
+  - See all possible files to complete command.
 * What command will show the available disk space on the Unix/Linux system?
+  - df
 * What commands do you know that can be used to check DNS records?
+  - nslookup or host command
 * What Unix/Linux commands will alter a files ownership, files permissions?
+  - chown. chmod
 * What does ```chmod +x FILENAME```do?
+  - makes file executable for everyone
 * What does the permission 0750 on a file mean?
+  - rwxr-x--
 * What does the permission 0750 on a directory mean?
+  - rwxr-x-- for files inside.
 * How to add a new system user without login permissions?
 * How to add/remove a group from a user?
+  - deluser user group
+  - adduser user group
 * What is a bash alias?
+  - Works like a keyboard shortcut
 * How do you set the mail address of the root/a user?
 * What does CTRL-c do?
+  - Sends SIGINT. Terminate process
 * What is in /etc/services?
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What is the difference between UNIX and Linux.
+  -  UNIX: copyrighted OS
+  - Linux: its clone. Posix compliance, opensource distribution. Only a kernel. Different distros add utility packages.
 * What is the difference between Telnet and SSH?
 * Explain the three load averages and what do they indicate. What command can be used to view the load averages?
+  - cat /proc/loadavg. last 1 min, 5 min and 15 min load.
 * Can you name a lower-case letter that is not a valid option for GNU ```ls```?
 
 
@@ -112,8 +140,10 @@ Server sits between client and actually server. Translate/validate requests. Iso
  * ```head```
  * ```tail```
 * What does an ```&``` after a command do?
+  - Detach process from shell. Shell doesn't need to join process before proceeding. Also killing the shell wouldn't kill the process.
 * What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
+  - Filters packet based on 
 * What is Virtual Memory?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
