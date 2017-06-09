@@ -146,4 +146,5 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    Preparing for system design interview.
 15. [System design interview resources] (https://github.com/checkcheckzz/system-design-interview)
    Elaborate list of useful resources.
+16. [Google site reliabilty engineer interview] (http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer/)
 
