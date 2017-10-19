@@ -100,7 +100,7 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    ETH Zurich course. Also covers very basic details.
 5. [Concurrent Programming for scalable web architectures](http://berb.github.io/diploma-thesis/original/index.html)
    Gives an overview of issues in large scalable systems you should care about
-6. [CS 417 Rutgers] (https://www.cs.rutgers.edu/~pxk/417/index.html)
+6. [CS 417 Rutgers](https://www.cs.rutgers.edu/~pxk/417/index.html)
    Distributed systems course at Rutgers. Pretty much covers everything.
 7. [100 most influential books](http://www.cspray.net/my.so-archive/100-most-influential-programming-books.html)
 8. OS Development
@@ -110,17 +110,21 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    (http://www.osdever.net/bkerndev/Docs/intro.htm)
 9. [Beej's guide to network programming](http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html)  
    Guide to networking APIs in C
-10. [Lets Build a webserver] (https://ruslanspivak.com/lsbaws-part1/)  
-11. [Programming in C UNIX system calls] (http://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html)
+10. [Lets Build a webserver](https://ruslanspivak.com/lsbaws-part1/)  
+11. [Programming in C UNIX system calls](http://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html)
    Everything related to c and UNIX in one place
-12. [Linux Insides] (https://www.gitbook.com/book/0xax/linux-insides/details)  
+12. [Linux Insides](https://www.gitbook.com/book/0xax/linux-insides/details)  
    Linux insides for dummies
-13. [FlingOS] (https://github.com/FlingOS)  
+13. [FlingOS](https://github.com/FlingOS)  
    DIY OS with tutorials and lectures
-14. [System design course] (https://www.educative.io/collection/5668639101419520/5649050225344512)
+14. [System design course](https://www.educative.io/collection/5668639101419520/5649050225344512)
    Preparing for system design interview.
-15. [System design interview resources] (https://github.com/checkcheckzz/system-design-interview)
+15. [System design interview resources](https://github.com/checkcheckzz/system-design-interview)
    Elaborate list of useful resources.
-16. [Google site reliabilty engineer interview] (http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer/)
-17. [SYS admin casts] (https://sysadmincasts.com)
+16. [Google site reliabilty engineer interview](http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer/)
+17. [SYS admin casts](https://sysadmincasts.com)
+
+
+Papers/articles about architectural hows and whys
+1. [Jupiter rising](https://research.google.com/pubs/papers.html)
 
