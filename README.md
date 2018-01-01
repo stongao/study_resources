@@ -123,6 +123,7 @@ Study STL constructs and APIs, how is it implemented, what does compiler do when
    Elaborate list of useful resources.
 16. [Google site reliabilty engineer interview](http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer/)
 17. [SYS admin casts](https://sysadmincasts.com)
+18. [Linux performance analysis tools](http://www.brendangregg.com/linuxperf.html)
 
 
 Papers/articles about architectural hows and whys
