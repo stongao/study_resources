@@ -26,3 +26,23 @@
 - ps
 - kill
 - strace
+
+### Networking
+- ifconfig
+- ip
+- netstat
+- nc/netcat
+- ping
+- traceroute
+- dig
+- whois
+- host
+- nslookup
+- ssh
+
+### User management and permissions
+- useradd
+- userdel
+- chmod
+- chown
+- selinux commands
