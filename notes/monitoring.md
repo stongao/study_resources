@@ -12,6 +12,7 @@
 - http://kbrandt.com/post/bosun_arch/
 - https://dzone.com/articles/monitoring-with-bosun
 - https://www.usenix.org/conference/lisa15/conference-program/presentation/brandt
+- https://blog.codeship.com/monitoring-with-bosun/
 
 
 # OpenTSDB
